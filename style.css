@@ -1,0 +1,14 @@
+:root{
+  --background-principal: #31302e;
+}
+
+.encabezado{
+  width: 100%;
+  height: 50px;
+
+  background: lightgray;
+}
+
+body{
+  background: var(--background-principal);
+}
