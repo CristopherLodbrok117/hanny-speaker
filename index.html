@@ -7,16 +7,19 @@
   <title>Silvia Speaker</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="reset.css">
+  <script src="script.js"></script>
 </head>
 <body>
   <header class="encabezado">
-    <input type="button" value="Hablar">
+    <input type="text" id="texto-hablar">
+    <input type="button" value="Hablar" id="boton-hablar" onclick="leerTexto('Que pasa')">
   </header>
+  
   <main>
     <section class="galeria-familiares">
       <div class="tarjeta">
         <img src="" alt="Imagen de comidas">
-        <p><a href="">Comida</a></p>
+        <p onclick="leerTexto('Comida')">Comida</p>
       </div>
       <div class="tarjeta">
         <img src="" alt="Imagen de bebidas">
@@ -24,6 +27,7 @@
       </div>
     </section>
   </main>
+
   <footer></footer>
 </body>
 </html>
