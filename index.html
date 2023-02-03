@@ -5,29 +5,34 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Silvia Speaker</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@300&family=Roboto&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="reset.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  
   <script src="script.js"></script>
 </head>
 <body>
-  <header class="encabezado">
-    <input type="text" id="texto-hablar">
-    <input type="button" value="Hablar" id="boton-hablar" onclick="leerTexto('Que pasa')">
-  </header>
+  <header class="encabezado"></header>
   
   <main>
-    <section class="galeria-familiares">
-      <div class="tarjeta">
-        <img src="" alt="Imagen de comidas">
-        <p onclick="leerTexto('Comida')">Comida</p>
+    <section class="tarjetas">
+      <div class="tarjeta" onclick="leerTexto('Comida')">
+        <img src="img/sandwich.png" alt="Imagen de comidas">
+        <p >Comida</p>
       </div>
-      <div class="tarjeta">
-        <img src="" alt="Imagen de bebidas">
-        <p>Bebidas</p>
+      <div class="tarjeta"onclick="leerTexto('agua')">
+        <img src="img/botella-agua.png" alt="Imagen de bebidas">
+        <p >Agua</p>
       </div>
     </section>
   </main>
 
-  <footer></footer>
+  <footer class="area-si-no">
+    <div class="respuesta-si-no" onclick="responderSiNo(1)">SI</div>
+    <div class=""></div>
+    <div class="respuesta-si-no" onclick="responderSiNo(0)">NO</div>
+  </footer>
 </body>
 </html>
