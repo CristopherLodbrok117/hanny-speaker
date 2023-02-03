@@ -10,33 +10,39 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="reset.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
- 
-  <!-- <script src="voces.js"></script> -->
+
   <script src="script.js"></script>
 </head>
 <body>
   <header class="encabezado">
-    <a href="index.html"><h1>REGRESAR</h1></a>
+    <a href="index.html"><h1><p> REGRESAR</p></h1></a>
   </header>
   
   <main>
     <section class="tarjetas">
-      <div class="tarjeta" onclick="leerTexto('Comida')">
-        <img src="img/sandwich.png" alt="Imagen de comidas">
-        <p >Comida</p>
+      <div class="tarjeta" onclick="leerEnVozAlta('Me ayudas a moverme')">
+        <p >Quiero moverme</p>
       </div>
-      <div class="tarjeta"onclick="leerTexto('agua')">
-        <img src="img/botella-agua.png" alt="Imagen de bebidas">
-        <p >Agua</p>
+      <div class="tarjeta" onclick="leerEnVozAlta('Quiero acostarme de lado')">
+        <img src="img/lado.jpg" alt="Mujer recostada de lado">
+        <p >Acostarme de lado</p>
       </div>
-      <div class="tarjeta" onclick="leerEnVozAlta('Podrias checar mi pañal')">
-        <img src="img/pañal.png" alt="Imagen de un pañal">
-        <p >Pañal</p>
+      <div class="tarjeta" onclick="leerEnVozAlta('Me ayudas a enderezarme')">
+        <img src="img/enderezar.jpg" alt="Persona sentada en la cama">
+        <p >Quiero enderezarme</p>
+      </div>
+      <div class="tarjeta" onclick="leerEnVozAlta('Quiero recostarme boca arriba')">
+        <img src="img/boca-arriba.jpg" alt="Persona acostada boca arriba">
+        <p >Recostada boca arriba</p>
+      </div>
+      <div class="tarjeta" onclick="leerEnVozAlta('Quiero sentarme en la silla de ruedas')">
+        <img src="img/silla-ruedas.png" alt="Imagen de un pañal">
+        <p >Sentarme en silla de ruedas</p>
       </div>
       <div class="tarjeta">
-        <a href="ayuda.html">
-          <img src="img/ayuda.png" alt="Imagen de agarre de manos">
-        <p >Pedir ayuda</p>
+        <a href="index.html">
+          <!-- <img src="img/ayuda.png" alt="Imagen de agarre de manos"> -->
+          <p >Regresar</p>
         </a>
         
       </div>
