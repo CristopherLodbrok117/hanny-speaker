@@ -76,12 +76,14 @@ body{
 
   transition: 0.5s all;
   text-align: center;
+  user-select: none;
 }
 
 a{
   text-decoration: none;
   text-align: center;
   color: #fff;
+  user-select: none;
 }
 .tarjeta:hover p{
   text-shadow: 1px 1px 10px #fff;
@@ -122,6 +124,7 @@ a{
   font-family: var(--fuente-principal);
 
   transition: .4s all;
+  user-select: none;
 }
 
 .respuesta-si-no:hover{
