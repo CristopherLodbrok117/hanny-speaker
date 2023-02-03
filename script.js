@@ -47,9 +47,6 @@ function responderSiNo(respuesta){
 
 function leerEnVozAlta(frase){
   speechSynthesis.speak(new SpeechSynthesisUtterance(frase));
-  
-  
-  
 }
 
 function crearOracion(texto){
