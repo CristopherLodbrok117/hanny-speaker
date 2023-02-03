@@ -3,6 +3,7 @@
   --background-secundario: #1f1f1c;
 
   --color-principal: #949494;
+  --color-principal-oscuro: #7a7a7a;
   --color-fuente-principal: #ffffff;
 
   --fuente-terciaria: 'Inter', sans-serif;
@@ -16,6 +17,7 @@
   height: 50px;
 
   background: #444141;
+  position: sticky;
 }
 
 body{
@@ -59,13 +61,24 @@ body{
 }
 
 .tarjeta p{
-  margin: 10px 0;
+  margin: 20px 0;
   font-size: 40px;
   font-weight: bold;
 
   font-family: var(--fuente-terciaria);
   font-family: var(--fuente-secundaria);
   font-family: var(--fuente-principal);
+
+  transition: 0.5s all;
+}
+
+.tarjeta a{
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+}
+.tarjeta:hover p{
+  text-shadow: 1px 1px 10px #fff;
 }
 
 .area-si-no{
@@ -94,5 +107,11 @@ body{
   font-family: var(--fuente-terciaria);
   font-family: var(--fuente-secundaria);
   font-family: var(--fuente-principal);
+
+  transition: .4s all;
 }
 
+.respuesta-si-no:hover{
+  background: var(--color-principal-oscuro);
+  text-shadow: 1px 1px 10px #fff;
+}

@@ -25,12 +25,10 @@ function generarNumeroRandom(valorLimite){
 function leerTexto(texto){
     let oracion = crearOracion(texto);
     leerEnVozAlta(oracion);
-    // speechSynthesis.speak(new SpeechSynthesisUtterance(oracion));
 }
 
 function darRespuestaRapida(respuesta){
   leerEnVozAlta(respuesta);
-  // speechSynthesis.speak(new SpeechSynthesisUtterance(oracion));
 }
 
 function responderSiNo(respuesta){
@@ -45,8 +43,13 @@ function responderSiNo(respuesta){
   leerEnVozAlta(frase);
 }
 
+
+
 function leerEnVozAlta(frase){
   speechSynthesis.speak(new SpeechSynthesisUtterance(frase));
+  
+  
+  
 }
 
 function crearOracion(texto){
