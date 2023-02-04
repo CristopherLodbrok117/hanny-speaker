@@ -2,13 +2,14 @@ const RESPUESTA_AFIRMATIVA = 1;
 const RESPUESTA_NEGATIVA = 0;
 
 let frasePedirInicio = [
+  "Tengo ganas de",
   "Algo de",
   "Un poco de",
   "quisiera"
 ];
 
 let frasePedirFinal = [
-  "por favor", "si pudieras",  
+  "por favor", "plis"  
 ]
 
 let respuestasNegativas = [
