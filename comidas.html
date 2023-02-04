@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Silvia Speaker</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@300&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <script src="script.js"></script>
+</head>
+<body>
+  <header class="encabezado">
+    <a href="index.html"><h1><p>REGRESAR</p></h1></a>
+  </header>
+  
+  <main>
+    <section class="tarjetas">
+      <div class="tarjeta" onclick="leerEnVozAlta('Tengo hambre, quisiera comer algo')">
+        <p >!Tengo hambre!</p>
+      </div>
+      <div class="tarjeta" onclick="leerTexto('papaya')">
+        <img src="img/papaya.png" alt="Papaya partida a la mitad">
+        <p >Pedir papaya</p>
+      </div>
+      <div class="tarjeta" onclick="leerTexto('manzana')">
+        <img src="img/manzana.png" alt="Manzana roja con letras">
+        <p >Pedir manzana</p>
+      </div>
+      <div class="tarjeta" onclick="leerTexto('pera')">
+        <img src="img/pera.png" alt="Dibujo de una pera">
+        <p >Pedir pera</p>
+      </div>
+      <div class="tarjeta" onclick="leerTexto('piña')">
+        <img src="img/piña.png" alt="Dibujo de una piña">
+        <p >Pedir piña</p>
+      </div>
+      <div class="tarjeta" onclick="leerTexto('platano')">
+        <img src="img/platano.png" alt="Un platano">
+        <p >Pedir platano</p>
+      </div>
+      <div class="tarjeta" onclick="leerTexto('zanahoria')">
+        <img src="img/zanahoria.png" alt="Dibujo de una zanahoria">
+        <p >Pedir zanahoria</p>
+      </div>
+      <div class="tarjeta" onclick="leerTexto('chayote')">
+        <img src="img/chayote.png" alt="Chayote partido">
+        <p >Pedir chayote</p>
+      </div>
+      <div class="tarjeta" onclick="leerTexto('calabaza')">
+        <img src="img/calabaza.png" alt="Calabaza grande">
+        <p >Pedir calabaza</p>
+      </div>
+      <div class="tarjeta" onclick="leerTexto('pollo')">
+        <img src="img/pollo.png" alt="Pollo rostizado">
+        <p >Pedir pollo</p>
+      </div>
+      <div class="tarjeta">
+        <a href="index.html">
+          <p >Regresar</p>
+        </a>
+        
+      </div>
+    </section>
+  </main>
+
+  <footer class="area-si-no">
+    <div class="respuesta-si-no" onclick="responderSiNo(1)">SI</div>
+    <div class=""></div>
+    <div class="respuesta-si-no" onclick="responderSiNo(0)">NO</div>
+  </footer>
+</body>
+</html>
