@@ -79,6 +79,14 @@ body{
   user-select: none;
 }
 
+.encabezado p{
+  color: var(--color-principal);
+}
+
+.encabezado p:hover{
+  color: #CCC;
+}
+
 a{
   text-decoration: none;
   text-align: center;
