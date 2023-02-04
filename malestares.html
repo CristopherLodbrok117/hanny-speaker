@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Silvia Speaker</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@300&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <script src="script.js"></script>
+</head>
+<body>
+  <header class="encabezado">
+    <a href="index.html"><h1><p> REGRESAR</p></h1></a>
+  </header>
+  
+  <main>
+    <section class="tarjetas">
+      
+      <div class="tarjeta" onclick="leerEnVozAlta('Siento dolor de cabeza')">
+        <img src="img/dolor-cabeza.jpg" alt="Mujer con dolor de cabeza">
+        <p >Dolor de cabeza</p>
+      </div>
+      <div class="tarjeta" onclick="leerEnVozAlta('Siento dolor de espalda')">
+        <img src="img/dolor-espalda.jpg" alt="Mujer con dolor en la espalda">
+        <p >Dolor de espalda</p>
+      </div>
+      <div class="tarjeta" onclick="leerEnVozAlta('Siento dolor de estomago')">
+        <img src="img/dolor-estomago.jpg" alt="Muñeco con dolor de estómago">
+        <p >Dolor de estomago</p>
+      </div>
+      <div class="tarjeta" onclick="leerEnVozAlta('Siento dolor en mi mano')">
+        <img src="img/dolor-mano.jpg" alt="Una mano con fondo blanco">
+        <p >Dolor en mi mano</p>
+      </div>
+      <div class="tarjeta" onclick="leerEnVozAlta('Siento malestar')">
+        <p >Siento malestar</p>
+      </div>
+      <div class="tarjeta" onclick="leerEnVozAlta('Siento dolor')">
+        <p >Siento dolor</p>
+      </div>
+      <div class="tarjeta" onclick="leerEnVozAlta('Siento ardor')">
+        <p >Siento ardor</p>
+      </div>
+      <div class="tarjeta" onclick="leerEnVozAlta('Tengo acidez')">
+        <p >Tengo acidéz</p>
+      </div>
+      <div class="tarjeta">
+        <a href="index.html">
+          <!-- <img src="img/ayuda.png" alt="Imagen de agarre de manos"> -->
+          <p >Regresar</p>
+        </a>
+        
+      </div>
+    </section>
+  </main>
+
+  <footer class="area-si-no">
+    <div class="respuesta-si-no" onclick="responderSiNo(1)">SI</div>
+    <div class=""></div>
+    <div class="respuesta-si-no" onclick="responderSiNo(0)">NO</div>
+  </footer>
+</body>
+</html>
